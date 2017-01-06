@@ -1,0 +1,8 @@
+.types .type-two,
+.types .type-three{
+    margin-left: 50px
+}
+
+.types .type-one p,
+.types .type-two p,
+.types .type-three p{text-align: justify}

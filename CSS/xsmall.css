@@ -1,0 +1,144 @@
+/* Start Navbar */
+.navbar{
+    width:100%;
+    height: 280px;
+    background-color:rgb(34,34,34);
+    color: #FFF;
+    display: block
+}
+
+.navbar .logo h3{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    line-height:80px;
+    margin-bottom: 0
+}
+
+.navbar ul li{
+    list-style: none;
+    float: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 4px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.navbar ul li:hover{color:rgb(50,118,177)}
+/* End Navbar */
+.background{
+    max-width:100%;
+    height: 250px;
+    background-image:url('../images/1.jpg');
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat
+}
+/* End Background */
+/* start Team */
+.teams{display:block}
+
+.teams .team-one,
+.teams .team-two{
+    width:85%;
+    margin: 40px auto
+}
+/* End Team */
+/* Start Download */
+.download .container{
+    border: 1px solid rgb(217,237,247);
+    background-color:rgb(217,237,247);
+    border-radius: 10px
+}
+
+.download{
+    display:block;
+    width: 90
+}
+
+.download .detail h2{
+    font-weight: lighter;
+    color:rgb(49,112,143);
+    font-size: 25px;
+    text-align: center;
+    margin-right: 13px
+}
+
+.download .button{padding-top: 25px; padding-bottom:25px}
+
+.download .button button{
+    margin: auto;
+    display: block;
+    background-color: rgb(50,118,177);
+    border: none;
+    font-size: 13px;
+    padding: 10px 15px;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    text-transform:uppercase
+}
+/* End Download */
+/* Start Types */
+.types {margin-top: 80px;display:block;margin-bottom: 80px}
+
+.types .type-one,
+.types .type-two,
+.types .type-three{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px
+}
+/* End Types */
+/* Start Fixed Background */
+.fixed-background .qoute{
+    width: 90%;
+    margin:0 auto;
+    text-align: center
+}
+/* End Fixed Background */
+/* Start Clients */
+.clients{
+    max-width:100%;
+    height: 70px;
+    background-image: url('../images/clients.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 40px 0 10px
+}
+/* End Clients */
+/* Start About */
+.company, .social-links, .location{
+    float: none;
+    width: 90%;
+    margin-bottom: 70px;
+    margin-left: 4%
+}
+
+.social-links i{
+    font-size: 30px;
+    padding-left: 110px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.social-links i:nth-of-type(2),
+.social-links i:nth-of-type(3),
+.social-links i:last-of-type{padding-left:10px}
+
+.location h3, .location p{text-align:center}
+
+.location button {margin: 0 auto}
+/* End About */
